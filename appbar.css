@@ -1,0 +1,26 @@
+.appbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.appbar li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 20px;
+    color:rgba(255,255,255,.5);
+}
+.appbar p{
+    cursor: pointer;
+    color:white;
+    font-size:22px;
+}
+.navigation{
+    display: flex;
+}
+.appbar li:nth-child(n+5){
+    color: white;   
+}
+.appbar li:hover{
+    cursor:pointer;  
+    color: white;
+}

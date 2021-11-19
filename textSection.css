@@ -1,0 +1,49 @@
+.text-section{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.text-section div{
+    width: 15%;
+}
+.text-section h2{
+    color: black;
+}
+.text-section p{
+    color: #6f6f6f;
+}
+.text-section i{
+    color:#28cc9e;
+    float: left;
+    margin-top: 25px;
+}
+@media only screen and (max-width:500px){
+.text-section{
+    
+ margin-top: -400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.text-section div{
+    width: 70%;
+    margin: 0px 30px;
+}
+.text-section h2{
+font-size: 2rem;
+}
+.text-section p{
+font-size: 1.2rem;
+}
+.text-section div{
+    margin-left: 100px;
+}
+.text-section i{
+    margin: 0px 30px;
+    position: relative;
+    top:100px
+}
+     }

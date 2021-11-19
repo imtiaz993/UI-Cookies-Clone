@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: raleway,sans-serif;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+.main-container{
+    display: grid;
+      
+}
+@media only screen and (min-width:768px){
+    .main-container{
+    grid-template-rows: 100vh 85vh 82vh 50vh 62vh;
+    }
+    
+     }
+
+.welcome-section{
+  
+    background-image: url(https://uicookies.com/demo/theme/unlock/images/cover_bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.appbar{
+    height: 9vh;
+    background-color: rgba(0,0,0,.2)!important;
+}
+
+.images-section{
+    background-color: white;
+}
+.detail-section{
+  
+    background-image: url(https://uicookies.com/demo/theme/unlock/images/cover_bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-section{
+    background-color: white;
+}
+.footer{
+    background-color: black;
+}

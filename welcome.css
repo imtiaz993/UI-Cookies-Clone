@@ -1,0 +1,83 @@
+.boostrap-text{
+ 
+    margin: 20vh auto;
+    padding: 10px;
+ 
+}
+.boostrap-text h1{
+    font-weight: lighter;
+    font-size:70px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+.boostrap-text h4{
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: x-large;
+    text-align: center;
+    color:rgba(255,255,255,.5);
+}
+.boostrap-text span{
+    text-decoration: underline;
+}
+.visit-buttons{
+    font-size:medium;
+text-align: center;
+margin-top: 60px;
+text-transform: uppercase;
+}
+.visit-buttons a:hover{
+    cursor: pointer;
+}
+.visit-buttons a:nth-child(1){
+    color: white;
+    background-color: #28cc9e;
+    padding: 20px 30px;
+    margin: 10px;
+    border-radius: 50px;
+}
+.visit-buttons a:nth-child(2){
+    color: white;
+    border: 1px solid white;
+    padding: 20px 30px;
+    margin: 10px;
+    border-radius: 50px;
+}
+.visit-buttons a:nth-child(2):hover{
+    background-color: wheat;
+    color: black;
+}
+
+@media only screen and (max-width:768px){
+div{
+    margin: 0px;
+}
+.welcome-section{
+   width: 100%;
+}
+   .appbar{
+       display: none;
+   }
+    .boostrap-text{
+        max-width: 500px;
+        margin: 10vh auto;
+    }
+    .boostrap-text h1{
+   
+        font-size:5rem;
+     
+    }
+
+    .boostrap-text h4{
+  
+        font-size: 2.5rem;
+     
+    }
+    .visit-buttons a{
+        font-size: xx-large;
+        display: block;
+        width: 400px;
+
+    }
+    }
